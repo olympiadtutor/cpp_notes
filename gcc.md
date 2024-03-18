@@ -28,6 +28,8 @@
 + **backtrace or bt**: Display the current call stack.
 + **continue or c**: Continue program execution until the next breakpoint or until the program finishes.
 + **quit or q**: Exit GDB.
+  
+
 
 	
 	
