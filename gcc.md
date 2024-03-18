@@ -3,7 +3,7 @@
 |------|---------------|
 |**-g** | Generate debugging information in the executable, allowing for debugging with tools like GDB.|	
 |**-O2** | Optimize the compiled code for speed, applying a moderate level of optimization.|
-|**std=c++11 <br>std=c++14 <br>std=c++17 <br>std=c++20**| Specify the C++ language standard|
+|**-std=c++11<br>-std=c++14<br>-std=c++17<br>-std=c++20**| Specify the C++ language standard|
 |**-I<path>**|Add the specified directory to the list of directories to be searched for header files during compilation.|
 |**-L<path>**|Add the specified directory to the list of directories to be searched for library files during linking.|
 |**-l<library>**|Link against the specified library during the linking phase.|
@@ -12,7 +12,7 @@
 |**-shared**|Generate a shared library rather than an executable.|
 |**-pedantic-errors**|strict conformance to C/C++ standards|
 |**-Wall<br>-Weffc++<br>-Wextra**|adherence to best practices in C++|
-|**-Wconversion <br>-Wsign-conversion**|identify potential precision loss or unintended behavior when converting between different types, including conversions between signed and unsigned types|
+|**-Wconversion<br>-Wsign-conversion**|identify potential precision loss or unintended behavior when converting between different types, including conversions between signed and unsigned types|
 |**-Werror**|Treat all warnings emitted by the compiler as errors|
 		
 ## GCC Debug
