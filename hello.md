@@ -1,18 +1,10 @@
-## Basics of Hello World
-
-- **Statement**: An instruction in a computer program that tells the computer to perform an action.
-- **Function**: A collection of statements that executes sequentially.
-- **Preprocessor directive**: Instructs the preprocessor, a program that processes source code before compilation, to tell the compiler to include a file in the source code program. Ex: _#include_, _#define_
-- **Main**: All program must have _main()_ function. Execution will start from first statement inside _main()_ function
-- **Syntax**: Grammer rules of C++ language
-
-![GCC_Compilation_Process](./assets/GCC_CompilationProcess.png)
-
 ## Compiler
 
 - The compiler is a program that translates source code written in a high-level programming language (e.g., C, C++, Java) into machine code or an intermediate representation.
 - It performs syntax and semantic analysis, optimization, and code generation to produce executable files or object code.
 - Common compilers include GCC (GNU Compiler Collection), Clang, and Microsoft Visual C++ Compiler.
+
+![GCC_Compilation_Process](./assets/GCC_CompilationProcess.png)
 
 ## Linker
 
@@ -27,4 +19,28 @@
 - They can be static or dynamic. Static libraries are linked directly into the executable, while dynamic libraries are loaded at runtime.
 - Libraries can be system libraries provided by the operating system or third-party libraries developed by other programmers.
 - Common libraries include the C Standard Library (libc), C++ Standard Library (libstdc++, libc++), and platform-specific libraries like Windows API or POSIX libraries.
+
+
+## Basics of Hello World
+
+- **Statement**: An instruction in a computer program that tells the computer to perform an action.
+- **Function**: A collection of statements that executes sequentially.
+- **Preprocessor directive**: Instructs the preprocessor, a program that processes source code before compilation, to tell the compiler to include a file in the source code program. Ex: #_include_, #_define_
+- **Main**: All program must have _main()_ function. Execution will start from first statement inside _main()_ function
+- **Syntax**: Grammer rules of C++ language
+
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+    char name[100];
+    cin >> name; //extraction operator
+    cout << "Hello world! " << name << endl;  // intersection operator 
+}
+```
+🚨 **Note** : 
+1. Rather than flush the output buffer each time 'endl' is called its more efficient to call '\n' because the system automatically flushes periodically. 
+2. Both **cin** and **cout** are part of standard i/o stream library **iostream**. cin ignores whitespace charecters (such as spaces tabs and newlines) and stops reading after it encounters them. **cin.getline()** is better solution in such cases.
+
+
 
