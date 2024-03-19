@@ -23,9 +23,10 @@
 
 ## Basics of Hello World
 
-- **Statement**: An instruction in a computer program that tells the computer to perform an action.
+- **Statement** : An instruction in a computer program that tells the computer to perform an action.
+- **Expression** : Produce values which can be assigned to new variables. `Ex : x = 4 + 5` 
 - **Function**: A collection of statements that executes sequentially.
-- **Preprocessor directive**: Instructs the preprocessor, a program that processes source code before compilation, to tell the compiler to include a file in the source code program. Ex: #_include_, #_define_
+- **Preprocessor directive**: Instructs the preprocessor, a program that processes source code before compilation, to tell the compiler to include a file in the source code program. `Ex: #include, #define`
 - **Main**: All program must have _main()_ function. Execution will start from first statement inside _main()_ function
 - **Syntax**: Grammer rules of C++ language
 
